@@ -1,2 +1,53 @@
 @import "bootstrap-sprockets";
-@import "bootstrap";  
+@import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color:red;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('cyborg.jpg');
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: red;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 3em;
+}
+
+#signupbutton {
+  margin-top: 170px;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: black;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer small {
+  float: left;
+}
