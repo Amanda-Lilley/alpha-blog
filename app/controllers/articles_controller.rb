@@ -1,3 +1,4 @@
+
 class ArticlesController < ApplicationController
 
   before_action :set_article, only: [:edit, :update, :show, :destroy]
@@ -14,7 +15,7 @@ class ArticlesController < ApplicationController
   end
 
   def show
-
+    @article = Article.find(params[:id])
   end
 
   def destroy
