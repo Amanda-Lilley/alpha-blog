@@ -1,17 +1,27 @@
+$navbar-default-bg: #501426;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar .nav > li > a {
+   color:  #fff;
+}
+
+.navbar .nav > li > a:hover {
+  color:  #8896a1;
+}
 
 #logo {
   float: left;
   font-size: 1.7em;
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color:red;
+  color:white;
   text-decoration: none;
 }
 
@@ -20,13 +30,13 @@
 }
 
 .jumbotron {
-  background-image: asset-url('cyborg.jpg');
+  background-image: asset-url('flowers.jpg');
   background-size: cover;
   height: 550px;
 }
 
 .jumbotron h1 {
-  color: red;
+  color: white;
   text-align: center;
   letter-spacing: 3px;
   font-size: 3em;
@@ -38,8 +48,12 @@
 
 .btn-xlarge {
   font-size: 1.7em;
-  background-color: black;
+  background-color: #501426;
+  border: 1px solid white;
 }
+
+
+
 
 .article-meta-details {
   border-top: 1px solid #eaeaea;
